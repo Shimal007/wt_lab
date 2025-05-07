@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Book CRUD</title></head>
+<body>
+    <form>
+        Book ID: <input type="text" name="id"><br><br>
+        Title: <input type="text" name="title"><br><br>
+        Author: <input type="text" name="author"><br><br>
+
+        <input formaction="http://localhost:8080/save" formmethod="post" type="submit" value="Save">
+        <input formaction="http://localhost:8080/show" formmethod="get" type="submit" value="Show">
+        <input formaction="http://localhost:8080/showall" formmethod="get" type="submit" value="Show All">
+        <input formaction="http://localhost:8080/update" formmethod="post" type="submit" value="Update">
+        <input formaction="http://localhost:8080/delete" formmethod="post" type="submit" value="Delete">
+    </form>
+</body>
+</html>
